@@ -8,9 +8,11 @@ This is from 2nd week lecture  studying on RL Seoul Study.
 
 <br>
 
-<br>
+<strong>Environment</strong>
 
-FrozenLake environment is from open ai gym.
+- Anaconda3
+- python3.6
+- openai gym
 
 <br>
 
@@ -39,3 +41,10 @@ FrozenLake environment is from open ai gym.
 
 - 06_q-table-nondeterministic_v0.py
 - 07_q-table_nondeterministic_v1.py
+
+```
+| Play Game   |      Q-Table and Success rate      |
+|----------|:-------------:|
+| 05_play_frozenlake.py |  06_q-table-nondeterministic_v0.py |
+| 08_q-table_frozenlake.py |    07_q-table_nondeterministic_v1.p   |
+```
