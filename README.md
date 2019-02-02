@@ -8,6 +8,8 @@ This is from 2nd week lecture  studying on RL Seoul Study.
 
 <br>
 
+-----------------------------------
+
 <strong>Environment</strong>
 
 - Anaconda3
@@ -16,7 +18,13 @@ This is from 2nd week lecture  studying on RL Seoul Study.
 
 <br>
 
+----------------------------------------------------
+
 <strong>Deterministic FrozenLake-v3</strong>
+
+```python
+env = gym.make('FrozenLake-v3')
+```
 
 <em>Play Game</em>
 
@@ -30,7 +38,13 @@ This is from 2nd week lecture  studying on RL Seoul Study.
 
 <br>
 
+-----------------------------------------
+
 <strong>Stochastic FrozenLake-v0</strong>
+
+```python
+env = gym.make('FrozenLake-v0')
+```
 
 <em>Play Game</em>
 
@@ -41,10 +55,3 @@ This is from 2nd week lecture  studying on RL Seoul Study.
 
 - 06_q-table-nondeterministic_v0.py
 - 07_q-table_nondeterministic_v1.py
-
-```
-| Play Game   |      Q-Table and Success rate      |
-|----------|:-------------:|
-| 05_play_frozenlake.py |  06_q-table-nondeterministic_v0.py |
-| 08_q-table_frozenlake.py |    07_q-table_nondeterministic_v1.p   |
-```
